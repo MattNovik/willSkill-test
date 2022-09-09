@@ -1,0 +1,107 @@
+.main-board {
+  position: relative;
+  padding: 96px 0;
+
+  &__vector {
+    position: absolute;
+    left: 0%;
+    right: 48.8%;
+    top: 28.11%;
+    bottom: 51.56%;
+    border-radius: 0px;
+
+  }
+
+  &::before {
+    content:'';
+    /* width: 100%;
+    height: 100%; */
+/*     position: absolute;
+    left: 0%;
+right: 48.8%;
+top: 28.11%;
+bottom: 51.56%;
+    background: linear-gradient(306.68deg, #F24500 -0.6%, #F28000 21.78%, #F2C900 51.42%, #F2E600 65.18%);
+opacity: 0.5; */
+    /* background: linear-gradient(306.68deg, #F24500 -0.6%, #F28000 21.78%, #F2C900 51.42%, #F2E600 65.18%),
+      linear-gradient(291.03deg, #F25A00 20.4%, #F28000 34.38%, #F2C900 62.93%, #F2E600 76.17%),
+      linear-gradient(109.26deg, #F24500 23.34%, #F28000 56.04%, #F2C900 99.37%, #F2E600 119.5%),
+      linear-gradient(134.23deg, #F24500 16.81%, #F28000 40.37%, #F2C900 71.58%, #F2E600 86.08%),
+      linear-gradient(143.85deg, #F24500 -0.08%, #F28000 22.22%, #F2C900 51.76%, #F2E600 65.48%),
+      linear-gradient(14.32deg, #F24500 -0.99%, #F28000 22.14%, #F2C900 52.79%, #F2E600 67.03%),
+      linear-gradient(328.72deg, #F2EA00 -0.51%, #F2B100 55.72%),
+      linear-gradient(157.09deg, #F2EA00 5.6%, #F2B100 62.14%, #F2B100 62.14%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    opacity: 0.5; */
+    z-index: 2;
+  }
+
+/*   &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FCDA28;
+    z-index: 1;
+  } */
+
+  .container {
+    position: relative;
+  }
+
+  &__slogan {
+    position: relative;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 152px;
+    margin: 0 0 24px;
+    color: $color-default-white;
+    z-index: 50;
+    white-space: pre-line;
+  }
+
+  &__info-1 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 120px;
+    white-space: pre-line;
+  }
+
+  &__info-2 {
+    font-size: 36px;
+    line-height: 43px;
+    margin: 0 0 16px;
+    font-weight: 700;
+  }
+
+  &__info-3 {
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+    white-space: pre-line;
+  }
+
+  &__img {
+    position: absolute;
+  }
+
+  &__img--nootris {
+    top: -26px;
+    right: 80px;
+    z-index: 10;
+  }
+
+  &__img--lemon {
+    right: 179px;
+    top: 345px;
+    z-index: 20;
+  }
+
+  &__img--ginger {
+    top: 176px;
+    right: 0;
+    z-index: 1;
+  }
+}

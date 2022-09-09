@@ -1,0 +1,14 @@
+mixin mainBoard()
+  section.main-board
+    +icon("icon-vector",100,100).main-board__vector
+    div.container
+      h1.main-board__slogan !{"АКТИВИРУЙ\n ИМУНИТЕТ!"}
+      p.main-board__info-1 !{"Всего пять секунд в день помогут укрепить иммунитет\n и повысить защитные силы организма"}
+      p.main-board__info-2 NOOTRIS ПОМОГАЕТ
+      p.main-board__info-3 !{"Вашему организму во время пандемии\n и сезонных простуд"}
+      div.main-board__img.main-board__img--ginger
+        +picture("content","ginger","png",496,409,"ginger")
+      div.main-board__img.main-board__img--lemon
+        +picture("content","lemon","png",533,462,"lemon")
+      div.main-board__img.main-board__img--nootris
+        +picture("content","nootris","png",224,635,"nootris")
